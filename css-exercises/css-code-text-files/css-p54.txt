@@ -1,0 +1,33 @@
+<html>
+<style>
+.line-1 {
+    background-image: url("../images/night.jpg");
+    background-size: 100%;
+    width: 90%;
+    height: 40%;
+    border: black 3px solid;
+}
+.line-2 {
+    background-color: white;
+    opacity: 0.6;
+    border: black 3px solid;
+    width: 70%;
+    padding: 25px 15px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
+<body>
+
+<div class="line-1">
+<div class="line-2">
+<center>
+    This is some text that is placed in the transparent box.
+</center>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WebItAll</title>
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav class="sidebar">
+        <a class="logo">
+            <img src="../images/logo.svg" alt="">
+            <span class="logo-txt">WebItAll</span>
+        </a>
+        <section class="main-sidebar">
+            <a href="../index.html" class="home"><i class='bx bx-home'></i> <span> Home </span></a>
+            <a href="#" class="home active"><i class='bx bxl-html5'></i><span> Html Tutorial </span></a>
+            <a href="../css-exercises/css-exercise-list.html" class="home"><i class='bx bxl-css3'></i><span> CSS Exercises</span></a>
+            <a href="../javascript/javascript-exercise-list.html" class="home"><i class='bx bxl-javascript'></i><span> JS Exercises</span></a>
+        </section>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Introduction</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-1.html"><i class='bx bx-dock-top'></i>Getting
+                        Started</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-2.html"><i class='bx bx-code'></i>HTML Tags</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-3.html"><i class='bx bx-book-open'></i>HTML
+                        Attributes</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-4.html"><i class='bx bx-edit'></i>HTML Formating</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-5.html"><i class='bx bx-box'></i>Block & Inline</a></li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">Tags Reference</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-6.html"><i class='bx bx-heading'></i>HTML Headings</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-7.html"><i class='bx bx-book-content'></i>HTML
+                        Paragraphs</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-8.html"><i class='bx bx-images'></i>HTML Images</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-9.html"><i class='bx bx-list-ul'></i>HTML Lists</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-10.html"><i class='bx bx-grid'></i>HTML Tables</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-11.html"> <i class='bx bx-link-alt'></i>HTML Links</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Forms</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-12.html"><i class='bx bx-detail'></i>Form Attributes</a>
+                </li>
+                <li class="tut-sidebar-items active"><a href="html-tut-13.html" class="active"><i class='bx bx-news'></i>Form Elements</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-14.html"><i class='bx bx-id-card'></i>Input types</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-15.html"><i class='bx bx-book-open'></i>Input
+                        Attributes</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section class="body-content">
+        <header>
+            <div class="search-bar">
+                <i class='bx bx-sm bx-search-alt'></i>
+                <input type="text" name="search" id="" placeholder="Search tutorials and examples">
+            </div>
+            <div class="theme-switch">
+                <i class='bx bx-sm bx-moon' id="switch-theme"></i>
+            </div>
+        </header>
+        <p class="content-heading">Form Elements</p>
+       <p class="content-detail">The HTML <span class="highlighted-text">&lt;form&gt;</span> element can contain one or more of the following form elements:</p>
+       <ul class="content-list">
+        <li class="content-list-item">&lt;input&gt;</li>
+        <li class="content-list-item">&lt;label&gt;</li>
+        <li class="content-list-item">&lt;textarea&gt;</li>
+        <li class="content-list-item">&lt;select&gt;</li>
+        <li class="content-list-item">&lt;option&gt;</li>
+        <li class="content-list-item">&lt;button&gt;</li>
+       </ul>
+       <p class="content-sub-heading">The &lt;input&gt; element</p>
+       <p class="content-detail">One of the most used form element is the <span class="highlighted-text">&lt;input&gt;</span> element. </p>
+      <p class="content-detail">  The <span class="highlighted-text">&lt;input&gt;</span> element can be displayed in several ways, depending on the type attribute.</p>
+      <img src="../images/input-tag.svg" alt="" class="content-tutorial-img">
+      <p class="content-sub-heading-2">Output :</p>
+      <p class="content-detail"><input type="text" id="fname" name="fname" placeholder="type something"></p>
+      <p class="content-sub-heading">The &lt;label&gt;</p>
+       <p class="content-detail">The <span class="highlighted-text">&lt;label&gt;</span> element defines a label for several form elements.</p>
+
+       <p class="content-detail"> The <span class="highlighted-text">&lt;label&gt;</span> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focus on the input element. </p>
+        
+      <p class="content-detail">  The <span class="highlighted-text">&lt;label&gt;</span> element also help users who have difficulty clicking on very small regions (such as radio buttons or checkboxes) - because when the user clicks the text within the <span class="highlighted-text">&lt;label&gt;</span> element, it toggles the radio button/checkbox. </p>
+        
+      <p class="content-detail">  The <span class="highlighted-text">for</span> attribute of the <span class="highlighted-text">&lt;label&gt;</span> tag should be equal to the id attribute of the <span class="highlighted-text">&lt;input&gt;</span> element to bind them together. </p>
+       <img src="../images/label-tag.svg" alt="" class="content-tutorial-img"> 
+       <p class="content-sub-heading-2">Output :</p>
+       <p class="content-detail"><label for="fname">First name : </label><input type="text" id="fname" name="fname" placeholder="type something"></p>
+       <p class="content-sub-heading">The &lt;select&gt; element</p>
+       <p class="content-detail">The <span class="highlighted-text">&lt;select&gt;</span> element defines a drop-down list:</p>
+       <img src="../images/select-tag.svg" alt="" class="content-tutorial-img">
+       <p class="content-sub-heading-2">Output : </p>
+       <p class="content-detail"><select name="birthday_day" id="birthday_day">
+        <option value="-1"> Day: </option>
+        <option value="1"> 1 </option>
+        <option value="2"> 2 </option>
+        </select>
+        </p>
+       <p class="content-detail">The <span class="highlighted-text">&lt;option&gt;</span> elements defines an option that can be selected.</p>
+       <p class="content-detail">By default, the first item in the drop-down list is selected.</p>
+       <p class="content-detail">To define a pre-selected option, add the <span class="highlighted-text">selected</span> attribute to the option : </p>
+       <img src="" alt="" class="content-tutorial-img">
+       <p class="content-sub-heading">The &lt;textarea&gt; element</p>
+       <p class="content-detail">The <span class="highlighted-text">&lt;textarea&gt;</span> element defines a multi-line input field (a text area)</p>
+        <img src="../images/textarea-tag.svg" alt="" class="content-tutorial-img">
+        <p class="content-detail">The <span class="highlighted-text">rows</span> attribute specifies the visible number of lines in a text area.</p>
+        <p class="content-detail">The <span class="highlighted-text">cols</span> attribute specifies the visible width of a text area.</p>
+        <p class="content-detail">This is how the HTML code above will be displayed in a browser:</p>
+        <p class="content-detail"><textarea name="message" rows="10" cols="30">
+            The cat was playing in the garden.
+            </textarea></p>
+       <p class="content-sub-heading"></p>
+       <p class="content-detail"></p>
+       <p class="content-sub-heading"></p>
+       <p class="content-detail"></p>
+
+        <hr class="hr-line">
+        <div class="page-navigate-area">
+            <a class="page-back" href="html-tut-12.html">
+                <p class="text">
+                    <p class="heading">Previous tutorial</p>
+                  Form Attributes</p>
+            </a>
+            <a href="html-tut-14.html" class="page-next">
+                <div class="text">
+                <p class="heading">Next tutorial : </p>
+               Input types</div>
+               <i class='bx bx-sm bx-arrow-back bx-flip-horizontal' ></i>
+            </a>
+        </div>
+        <hr class="hr-line">
+        <footer>
+            <p class="left-text">Follow us on<a href="https://github.com/riyachhetri"> <i class='bx bx-sm bxl-github'></i> </a></p>
+            <p class="copyright-text">&#169; WebItAll 2022 All rights reserved.</p>
+            <p class="right-text">
+                <a href="../about-us.html" class="bottom-links">About us</a>
+            </p>
+        </footer>
+        <hr class="hr-line">
+        <p class="heart-thought">Made with &#10084;&#65039; from India</p>
+    </section>
+</body>
+<script src="../script.js"></script>
+
+</html>

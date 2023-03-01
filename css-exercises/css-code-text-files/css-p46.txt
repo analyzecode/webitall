@@ -1,0 +1,14 @@
+<html>
+<style>
+span {
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 4px 3px red;
+}
+</style>
+<body>
+
+<span>Text-shadow effect</span>
+
+</body>
+</html>

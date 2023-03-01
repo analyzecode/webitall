@@ -1,0 +1,24 @@
+<html>
+<style>
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 12px solid rgb(1, 94, 1);
+    padding: 30px;
+    margin: 10px;
+}
+</style>
+<body>
+
+<h2>Demonstrating the Box Model</h2>
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding,
+margins, and the actual content.</p>
+<div>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. In
+order that for the most part, any one of us will come to the exercise of any kind of employment except to take
+advantage of the objectives from it. But the pain in the film is irure to condemn, in the pleasure it wants to
+escape from the pain of being clum in pain, none result. They are the exceptions the blinds yearn for, they
+don't see, they are the ones who abandon their responsibilities to the fault that is soothing the soul's
+hardships.</div>
+
+</body>
+</html>

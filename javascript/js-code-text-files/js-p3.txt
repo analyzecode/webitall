@@ -1,0 +1,18 @@
+<html>
+<body>
+<p id="leapresult"></p>
+</body>
+<script>
+const year = prompt('Enter a year:');
+function checkLeapYear(year) {
+
+    if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
+        document.getElementById("leapresult").innerHTML = (year + ' is a leap year');
+    } else {
+        document.getElementById("leapresult").innerHTML = (year + ' is not a leap year');
+    }
+}
+
+checkLeapYear(year);
+</script>
+</html>

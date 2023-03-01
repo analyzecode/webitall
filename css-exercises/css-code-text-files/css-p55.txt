@@ -1,0 +1,31 @@
+<html>
+<style>
+body{
+    font-size: 30px;
+}
+.drop {
+    position: relative;
+    display: inline-block;
+}
+.down {
+    display: none;
+    position: absolute;
+    background-color: rgb(106, 224, 28);
+    padding: 10px 15px;
+}
+.drop:hover .down {
+    display: block;
+}
+</style>
+<body>
+
+<div class="drop">
+<span>Dropdown Text</span>
+<div class="down">
+    <p>Line one</p>
+    <p>Line two</p>
+    <p>Line three</p>
+</div>
+</div>
+</body>
+</html>

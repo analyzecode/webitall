@@ -1,0 +1,26 @@
+<html>
+<style>
+div{
+    display: inline-flex;
+    background-color: black;
+    padding: 10px 15px;
+}
+span{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 18px 12px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+</style>
+<body>
+
+<a href=""><div>
+<img src="../images/left.png">
+<span>Share this course</span>
+</div></a>
+
+</body>
+</html>

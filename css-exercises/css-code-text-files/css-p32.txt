@@ -1,0 +1,33 @@
+<html>
+<style>
+a {
+    background-color: rgb(40, 0, 151);
+    color: white;
+    text-decoration: none;
+    padding: 4px 20px;
+}
+img {
+    width: 100%;
+    padding: 10px 0px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
+<body style="margin: 0;font-size: 12px;">
+
+<div style="display: flex; background-color: rgba(230,226,226,255);padding: 10px 20px;">
+<div style="width:60%;">
+    <h1>Designed for Startups & brands</h1>
+    Lorem ipsum dolor sit amet consectetur adipidicing elit. Omnis libero numquam reprehenderit ullam suscript, neque voluptatibus asperiores laborum minus ipsa earum odit sit sequi autem ex cumque!<br><br>
+    &#x2611; Lorem ipsum dolor sit.<br>
+    &#x2611; Lorem ipsum dolor sit amet. <br>
+    &#x2611; Lorem ipsum dolor sit.<br><br>
+    <a href="#">WATCH INTRO</a>
+</div><div style="width:40%">
+    <img src="../images/lapi.png">
+</div></div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+<html>
+<head>
+    <title>10th program of css</title>
+</head>
+<body>
+    <div style="background-color:red; width:70%; padding:2px; margin:40px 0px 0px 0px;">
+        <p style="color:white; text-align: center; font: size 15px;">Shop early for the best selection of holiday favrouites. Shop Now> </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+<style>
+input {
+    background-color: rgb(26, 92, 214);
+    color: white;
+    padding: 12px 14px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    margin: 11px 0px;
+    margin-left: 50px;
+}
+body {
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    width: 500px;
+}
+h3 {
+    color: black;
+    margin: 0px;
+}
+div {
+    float: left;
+}
+img {
+    width: 70px;
+    border-radius: 50%;
+    float: left;
+    padding: 5px;
+}
+span {
+    float: left;
+    margin: 5px 20px;
+}
+</style>
+<body>
+
+<div>
+    <img src="../images/lola2.jpg" align="top">
+    <span><h3>Lola</h3>The Cat<br>Famous<br></span>
+    <input type="button" value="Follow">
+</div><br><div>
+    <img src="../images/lola1.jpg" align="top">
+    <span><h3>Lola</h3>The Cat<br>Famous<br></span>
+    <input type="button" value="Follow">
+</div><br><div>
+    <img src="../images/lola5.jpg" align="top">
+    <span><h3>Lola</h3>The Cat<br>Famous<br></span>
+    <input type="button" value="Follow">
+</div>
+
+</body>
+</html>

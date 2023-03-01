@@ -1,0 +1,45 @@
+<html>
+<style>
+    .line-1{list-style-type:circle;}
+    .line-2{list-style-type:disc;}
+    .line-3{list-style-type:square;}
+    .line-4{list-style-type:armenian;}
+    .line-5{list-style-type:georgian;}
+    .line-6{list-style-type:decimal;}
+    .linr-7{list-style-type:decimal-leading-zero;}
+</style>
+<body>
+
+All List Style Types
+<ul class="line-1">
+    <li>Circle type</li>
+    <li>Coca Cola</li>
+    <li>Tea</li>
+</ul><ul class="line-2">
+    <li>Disk type</li>
+    <li>Coca Cola</li>
+    <li>Tea</li>
+</ul><ul class="line-3">
+    <li>Square type</li>
+    <li>Coca Cola</li>
+    <li>Tea</li>
+</ul><ul class="line-4">
+    <li>Armenian type</li>
+    <li>Coca Cola</li>
+    <li>Tea</li>
+</ul><ol class="line-5">
+    <li>Ideographic type</li>
+    <li>Coca Cola</li>
+    <li>Tea</li>
+</ol><ol class="line-6">
+    <li>Decimal type</li>
+    <li>Coca Cola</li>
+    <li>Tea</li>
+</ol><ol class="line-7">
+    <li>Decimal-leading-zero type</li>
+    <li>Coca Cola</li>
+    <li>Tea</li>
+</ol>
+
+</body>
+</html>

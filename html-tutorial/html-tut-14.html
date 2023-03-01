@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WebItAll</title>
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav class="sidebar">
+        <a class="logo">
+            <img src="../images/logo.svg" alt="">
+            <span class="logo-txt">WebItAll</span>
+        </a>
+        <section class="main-sidebar">
+            <a href="../index.html" class="home"><i class='bx bx-home'></i> <span> Home </span></a>
+            <a href="#" class="home active"><i class='bx bxl-html5'></i><span> Html Tutorial </span></a>
+            <a href="../css-exercises/css-exercise-list.html" class="home"><i class='bx bxl-css3'></i><span> CSS Exercises</span></a>
+            <a href="../javascript/javascript-exercise-list.html" class="home"><i class='bx bxl-javascript'></i><span> JS Exercises</span></a>
+        </section>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Introduction</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-1.html"><i class='bx bx-dock-top'></i>Getting
+                        Started</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-2.html"><i class='bx bx-code'></i>HTML Tags</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-3.html"><i class='bx bx-book-open'></i>HTML
+                        Attributes</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-4.html"><i class='bx bx-edit'></i>HTML Formating</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-5.html"><i class='bx bx-box'></i>Block & Inline</a></li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">Tags Reference</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-6.html"><i class='bx bx-heading'></i>HTML Headings</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-7.html"><i class='bx bx-book-content'></i>HTML
+                        Paragraphs</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-8.html"><i class='bx bx-images'></i>HTML Images</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-9.html"><i class='bx bx-list-ul'></i>HTML Lists</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-10.html"><i class='bx bx-grid'></i>HTML Tables</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-11.html"> <i class='bx bx-link-alt'></i>HTML Links</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Forms</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-12.html"><i class='bx bx-detail'></i>Form Attributes</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-13.html"><i class='bx bx-news'></i>Form Elements</a>
+                </li>
+                <li class="tut-sidebar-items active"><a href="html-tut-14.html" class="active"><i class='bx bx-id-card'></i>Input types</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-15.html"><i class='bx bx-book-open'></i>Input
+                        Attributes</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section class="body-content">
+        <header>
+            <div class="search-bar">
+                <i class='bx bx-sm bx-search-alt'></i>
+                <input type="text" name="search" id="" placeholder="Search tutorials and examples">
+            </div>
+            <div class="theme-switch">
+                <i class='bx bx-sm bx-moon' id="switch-theme"></i>
+            </div>
+        </header>
+        <p class="content-heading">Input types</p>
+       <p class="content-detail">Here are the different input types you can use in HTML :</p>
+       <ul class="content-list">
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> text </span>" &gt;</li>
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> button</span> " &gt;</li>
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> checkbox </span>" &gt;</li>
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> color</span> " &gt;</li>
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> date </span>" &gt;</li>
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> email</span>" &gt;</li>
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> file</span> " &gt;</li>
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> number</span>" &gt;</li>
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> password</span>" &gt;</li>
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> radio</span>" &gt;</li>
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> reset</span>" &gt;</li>
+        <li class="content-list-item">&lt;input type = " <span class="highlighted-text"> submit</span>" &gt;</li>
+       </ul>
+       <p class="content-sub-heading">Input type text</p>
+        <p class="content-detail">It defines a single-line text input field:</p>
+        <img src="../images/input-attrib-1.svg" alt="" class="content-tutorial-img">
+        <p class="content-sub-heading-2">Output : </p>
+        <p class="content-detail">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="type something"></p>
+
+        <p class="content-sub-heading">Input type button</p>
+        <p class="content-detail">It defines a button</p>
+        <img src="../images/input-attrib-2.svg" alt="" class="content-tutorial-img">
+        <p class="content-sub-heading-2">Output : </p>
+        <p class="content-detail"><input type="button" onclick="alert('Hello World!')" value="Click Me!"></p>
+
+        <p class="content-sub-heading">Input type checkbox</p>
+        <p class="content-detail">It defines a checkbox</p>
+        <img src="../images/input-attrib-3.svg" alt="" class="content-tutorial-img">
+        <p class="content-sub-heading-2">Output : </p>
+        <p class="content-detail">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"><label for="vehicle1"> I have a bike</label> &nbsp;
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label> &nbsp;
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label></p>
+
+        <p class="content-sub-heading">Input type color </p>
+        <p class="content-detail">It is used for input fields that should contain a color. </p>
+        <p class="content-detail">Depending on browser support, a color picker can show up in the input field.</p>
+        <img src="../images/input-attrib-4.svg" alt="" class="content-tutorial-img">
+        <p class="content-sub-heading-2">Output : </p>
+        <p class="content-detail"> <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor"></p>
+
+            <p class="content-sub-heading">Input type date </p>
+            <p class="content-detail">It is used for input fields that should contain a date. </p>
+            <img src="../images/input-attrib-5.svg" alt="" class="content-tutorial-img">
+            <p class="content-sub-heading-2">Output : </p>
+            <p class="content-detail"> <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"></p>
+
+                <p class="content-sub-heading">Input type email </p>
+            <p class="content-detail">It is used for input fields that should contain an e-mail address. </p>
+            <img src="../images/input-attrib-6.svg" alt="" class="content-tutorial-img">
+            <p class="content-sub-heading-2">Output : </p>
+            <p class="content-detail"><label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email"></p>
+
+                <p class="content-sub-heading">Input type file </p>
+                <p class="content-detail">It  defines a file-select field and a "Browse" button for file uploads. </p>
+                <img src="../images/input-attrib-7.svg" alt="" class="content-tutorial-img">
+                <p class="content-sub-heading-2">Output : </p>
+                <p class="content-detail"> <label for="myfile">Select a file:</label>
+                    <input type="file" id="myfile" name="myfile"></p>
+
+                    <p class="content-sub-heading">Input type number </p>
+                    <p class="content-detail">It  defines a numeric input field. </p>
+                    <p class="content-detail">You can also set restrictions on what numbers are accepted.</p>
+                    <p class="content-detail">The following example displays a numeric input field, where you can enter a value from 3 to 8:</p>
+                    <img src="../images/input-attrib-8.svg" alt="" class="content-tutorial-img">
+                    <p class="content-sub-heading-2">Output : </p>
+                    <p class="content-detail">  <label for="quantity">Quantity (between 3 and 8):</label>
+                        <input type="number" id="quantity" name="quantity" min="3" max="8"></p>
+
+                        <p class="content-sub-heading">Input type password </p>
+                        <p class="content-detail">It  defines a password field </p>
+                        <img src="../images/input-attrib-9.svg" alt="" class="content-tutorial-img">
+                        <p class="content-sub-heading-2">Output : </p>
+                        <p class="content-detail">  <label for="pwd">Password:</label>
+                            <input type="password" id="pwd" name="pwd"></p>
+
+                            <p class="content-sub-heading">Input type radio </p>
+                        <p class="content-detail">It  defines a radio button </p>
+                        <p class="content-detail">Radio buttons let a user select ONLY ONE of a limited number of choices:</p>
+                        <img src="../images/input-attrib-10.svg" alt="" class="content-tutorial-img">
+                        <p class="content-sub-heading-2">Output : </p>
+                        <p class="content-detail">  <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">HTML</label>&nbsp; &nbsp;
+                            <input type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">CSS</label>&nbsp; &nbsp;
+                            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                            <label for="javascript">JavaScript</label></p>
+                            
+                             <p class="content-sub-heading">Input type submit </p>
+                             <p class="content-detail">It  defines a button for submitting form data to a form-handler. </p>
+                             <p class="content-detail">The form-handler is typically a server page with a script for processing input data.</p>
+                             <p class="content-detail">The form-handler is specified in the form's action attribute : </p>
+                             <img src="../images/input-attrib-11.svg" alt="" class="content-tutorial-img">
+                             <p class="content-sub-heading-2">Output : </p>
+                             <p class="content-detail">  <label for="fname">First name:</label>
+                                 <input type="text" id="fname" name="fname" value="John"> &nbsp; &nbsp;
+                                 <input type="submit" value="Submit"></p>
+
+                            <p class="content-sub-heading">Input type reset </p>
+                            <p class="content-detail">It  defines a reset button that will reset all form values to their default values </p>
+                            <img src="../images/input-attrib-12.svg" alt="" class="content-tutorial-img">
+                            <p class="content-sub-heading-2">Output : </p>
+                            <form class="content-detail"> <label for="fname">First name:</label> &nbsp;
+                                <input type="text" id="fname" name="fname" value="John"> &nbsp; &nbsp;
+                                <label for="lname">Last name:</label> &nbsp; &nbsp;
+                                <input type="text" id="lname" name="lname" value="Doe"> &nbsp; &nbsp;
+                                <input type="submit" value="Submit"> &nbsp; &nbsp;
+                                <input type="reset"> </form>
+        <hr class="hr-line">
+        <div class="page-navigate-area">
+            <a class="page-back" href="html-tut-13.html">
+                <p class="text">
+                    <p class="heading">Previous tutorial</p>
+                  Form Elements</p>
+            </a>
+            <a href="html-tut-15.html" class="page-next">
+                <div class="text">
+                <p class="heading">Next tutorial : </p>
+               Input Attributes</div>
+               <i class='bx bx-sm bx-arrow-back bx-flip-horizontal' ></i>
+            </a>
+        </div>
+        <hr class="hr-line">
+        <footer>
+            <p class="left-text">Follow us on<a href="https://github.com/riyachhetri"> <i class='bx bx-sm bxl-github'></i> </a></p>
+            <p class="copyright-text">&#169; WebItAll 2022 All rights reserved.</p>
+            <p class="right-text">
+                <a href="../about-us.html" class="bottom-links">About us</a>
+            </p>
+        </footer>
+        <hr class="hr-line">
+        <p class="heart-thought">Made with &#10084;&#65039; from India</p>
+    </section>
+</body>
+<script src="../script.js"></script>
+
+</html>

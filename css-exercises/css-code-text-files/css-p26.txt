@@ -1,0 +1,53 @@
+<html>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    color: black;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 14px 4px;
+    text-decoration: none;
+    font-size: 16px;
+}
+input {
+    margin: 14px 0px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 11px;
+    padding: 3px 5px;
+    border: 1px solid;
+}
+span {
+    font-size: 16px;
+    font-weight: 600;
+}
+img {
+    padding: 12px 0px;
+    margin: 0px;
+    text-align: center;
+    align-items: center;
+    height: 20px;
+}
+</style>
+<body style="margin: 0px;background-color:white;">
+
+<ul><div style="float:right;display: flex;margin-right: 5px;">
+<li><a href="#">Home</a></li>
+<li><a href="#">Product</a></li>
+<li><a href="#">AboutUs</a></li>
+<li><a href="#">Contacts</a></li>
+<li><input type="button" value="Buttons"></li></div>
+<li style="float:left;display: flex;margin-left: 5px;"><img src="../images/pose.png"><a href="#"><span>Poseiden</span></a></li></ul>
+
+</body>
+</html>

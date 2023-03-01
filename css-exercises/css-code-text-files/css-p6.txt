@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>6th program of css</title>
+    </head>
+
+    <body>
+        <div style="display: inline-block; border:2px solid black; margin:5px; padding:3px;">
+        <img src="../images/doll.webp" alt="" height="250px" width="260px">   
+        <h3 style="margin:2px 0px 0px 80px;">Riya Chhetri</h3> 
+        </div>
+    </body>
+</html>

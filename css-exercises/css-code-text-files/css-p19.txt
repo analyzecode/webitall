@@ -1,0 +1,47 @@
+<html>
+<head>
+   
+    <style>
+        div{
+            width: 60%;
+            height: 60%;
+            background-color: rgb(105, 80, 214);
+            padding:7px;
+            border-radius: 3px;
+            margin:10px;
+        }
+        .line-1{
+            color: white;
+        }
+        .line-2{
+            color: white;
+            font-size: 2.3rem;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: -8px;
+        }
+        .line-3{
+            color: white;
+            width: 95%;
+            margin-top:-25px;
+            font-size:1.2rem;
+        }
+        .line-4{
+            color: white;
+            margin:-5px 0px 0px 20rem;
+            font-size:1.4rem;
+            border:1px solid white;
+            border-radius:45px;
+            padding: 8px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+  <div>
+      <p class="line-1">Projects &middot; Branding</p>
+      <p class="line-2">MAKE IT LIVE</p>
+      <p class="line-3">- Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam iusto repellendus tempora reiciendis, veniam harum illo rem neque enim architecto accusantium possimus veritatis placeat ipsum!</p>
+      <p class="line-4">$37</p>
+  </div>  
+</body>
+</html>

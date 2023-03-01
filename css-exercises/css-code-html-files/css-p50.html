@@ -1,0 +1,28 @@
+<html>
+<style>
+div.rela {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #80bc2d;
+}
+div.abso {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #89c339;
+}
+</style>
+<body>
+
+<h2>position: absolute;</h2>
+<p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of
+    positioned relative to the viewport, like fixed):</p>
+<div class="rela">This div element has position: relative;
+    <div class="abso">This div element has position: absolute;</div>
+</div>
+
+</body>
+</html>

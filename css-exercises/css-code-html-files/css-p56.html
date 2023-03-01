@@ -1,0 +1,67 @@
+<html>
+<style>
+.navb {
+    overflow: hidden;
+    background-color: rgb(27, 26, 26);
+}
+.navb a {
+    float: left;
+    font-size: 16px;
+    color: rgb(201, 128, 235);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.drop {
+    float: left;
+    overflow: hidden;
+}
+.drop .dropb {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(201, 115, 240);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navb a:hover,
+.drop:hover .dropb {
+    background-color: whitesmoke;
+}
+.down {
+    display: none;
+    position: absolute;
+    background-color: rgb(203, 132, 236);
+}
+.down a {
+    float: none;
+    color: rgb(81, 78, 78);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.down a:hover {
+    background-color: whitesmoke;
+}
+.drop:hover .down {
+    display: block;
+}
+</style>
+<body>
+
+<div class="navb">
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+<div class="drop">
+<button class="dropb">Menu</button>
+<div class="down">
+    <a href="#"> ONE </a>
+    <a href="#"> TWO</a>
+    <a href="#"> THREE </a>
+</div></div></div>
+
+</body>
+</html>

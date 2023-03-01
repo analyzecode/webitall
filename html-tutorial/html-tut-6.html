@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WebItAll</title>
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav class="sidebar">
+        <a class="logo">
+            <img src="../images/logo.svg" alt="">
+            <span class="logo-txt">WebItAll</span>
+        </a>
+        <section class="main-sidebar">
+            <a href="../index.html" class="home"><i class='bx bx-home'></i> <span> Home </span></a>
+            <a href="#" class="home active"><i class='bx bxl-html5'></i><span> Html Tutorial </span></a>
+            <a href="../css-exercises/css-exercise-list.html" class="home"><i class='bx bxl-css3'></i><span> CSS Exercises</span></a>
+            <a href="../javascript/javascript-exercise-list.html" class="home"><i class='bx bxl-javascript'></i><span> JS Exercises</span></a>
+        </section>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Introduction</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-1.html"><i class='bx bx-dock-top'></i>Getting
+                        Started</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-2.html"><i class='bx bx-code'></i>HTML Tags</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-3.html"><i class='bx bx-book-open'></i>HTML
+                        Attributes</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-4.html"><i class='bx bx-edit'></i>HTML Formating</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-5.html"><i class='bx bx-box'></i>Block & Inline</a></li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">Tags Reference</p>
+            <ul>
+                <li class="tut-sidebar-items active"><a href="html-tut-6.html" class="active"><i class='bx bx-heading'></i>HTML Headings</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-7.html"><i class='bx bx-book-content'></i>HTML
+                        Paragraphs</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-8.html"><i class='bx bx-images'></i>HTML Images</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-9.html"><i class='bx bx-list-ul'></i>HTML Lists</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-10.html"><i class='bx bx-grid'></i>HTML Tables</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-11.html"> <i class='bx bx-link-alt'></i>HTML Links</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Forms</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-12.html"><i class='bx bx-detail'></i>Form Attributes</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-13.html"><i class='bx bx-news'></i>Form Elements</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-14.html"><i class='bx bx-id-card'></i>Input types</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-15.html"><i class='bx bx-book-open'></i>Input
+                        Attributes</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section class="body-content">
+        <header>
+            <div class="search-bar">
+                <i class='bx bx-sm bx-search-alt'></i>
+                <input type="text" name="search" id="" placeholder="Search tutorials and examples">
+            </div>
+            <div class="theme-switch">
+                <i class='bx bx-sm bx-moon' id="switch-theme"></i>
+            </div>
+        </header>
+        <p class="content-heading">HTML Headings</p>
+        <p class="content-detail">HTML headings are titles or subtitles that you want to display on a webpage.</p>
+        <p class="content-detail">HTML headings are defined with the <span class="highlighted-text"> &lt;h1&gt;</span> to <span class="highlighted-text"> &lt;h6&gt;</span> tags.</p>
+
+        <p class="content-detail"><span class="highlighted-text"> &lt;h1&gt;</span> defines the most important heading. <span class="highlighted-text"> &lt;h6&gt;</span> defines the least important heading.</p>
+
+        <img src="../images/h1-h6-tag-code.svg" alt="" class="content-tutorial-img">
+        <p class="content-sub-heading-2">Output : </p>
+        <img src="../images/h1-h6-tag-output.svg" alt="" class="content-tutorial-img">
+
+        <p class="content-detail"><span class="highlighted-text">Note : </span> Browsers automatically add some white space (a margin) before and after a heading.</p>
+            <hr class="hr-line">
+        <div class="page-navigate-area">
+            <a class="page-back" href="html-tut-5.html">
+                <p class="text">
+                    <p class="heading">Previous tutorial</p>
+                   Block Inline</p>
+            </a>
+            <a href="html-tut-7.html" class="page-next">
+                <div class="text">
+                <p class="heading">Next tutorial : </p>
+               HTML Paragraphs</div>
+               <i class='bx bx-sm bx-arrow-back bx-flip-horizontal' ></i>
+            </a>
+        </div>
+        <hr class="hr-line">
+        <footer>
+            <p class="left-text">Follow us on<a href="https://github.com/riyachhetri"> <i class='bx bx-sm bxl-github'></i> </a></p>
+            <p class="copyright-text">&#169; WebItAll 2022 All rights reserved.</p>
+            <p class="right-text">
+                <a href="../about-us.html" class="bottom-links">About us</a>
+            </p>
+        </footer>
+        <hr class="hr-line">
+        <p class="heart-thought">Made with &#10084;&#65039; from India</p>
+    </section>
+</body>
+<script src="../script.js"></script>
+
+</html>

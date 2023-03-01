@@ -1,0 +1,41 @@
+<html>
+<style>
+span.line-1 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid rgb(247, 241, 67);
+    background-color: rgb(249, 151, 85);
+}
+span.line-2 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid rgb(247, 241, 67);
+    background-color: rgb(249, 151, 85);
+}
+span.line-3 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid rgb(247, 241, 67);
+    background-color: rgb(249, 151, 85);
+}
+</style>
+<body>
+
+<h2>display: inline</h2>
+    <div>it shows<span class="line-1">it shows</span> 
+    <span class="line-1">inline</span> display properties.</div>
+<h2>display: inline-block</h2>
+    <div>it shows<span class="line-2">it shows</span> 
+    <span class="line-2">inline-block</span> display properties.</div>
+<h2>display: block</h2>
+    <div>it shows<span class="line-3">it shows</span> 
+    <span class="line-3">block</span> display properties.</div>
+<br><br>
+</body>
+</html>

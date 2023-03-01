@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WebItAll</title>
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav class="sidebar">
+        <a class="logo">
+            <img src="../images/logo.svg" alt="">
+            <span class="logo-txt">WebItAll</span>
+        </a>
+        <section class="main-sidebar">
+            <a href="../index.html" class="home"><i class='bx bx-home'></i> <span> Home </span></a>
+            <a href="#" class="home active"><i class='bx bxl-html5'></i><span> Html Tutorial </span></a>
+            <a href="../css-exercises/css-exercise-list.html" class="home"><i class='bx bxl-css3'></i><span> CSS Exercises</span></a>
+            <a href="../javascript/javascript-exercise-list.html" class="home"><i class='bx bxl-javascript'></i><span> JS Exercises</span></a>
+        </section>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Introduction</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-1.html"><i class='bx bx-dock-top'></i>Getting
+                        Started</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-2.html"><i class='bx bx-code'></i>HTML Tags</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-3.html"><i class='bx bx-book-open'></i>HTML
+                        Attributes</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-4.html"><i class='bx bx-edit'></i>HTML Formating</a>
+                </li>
+                <li class="tut-sidebar-items active"><a href="html-tut-5.html" class="active"><i class='bx bx-box'></i>Block & Inline</a></li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">Tags Reference</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-6.html"><i class='bx bx-heading'></i>HTML Headings</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-7.html"><i class='bx bx-book-content'></i>HTML
+                        Paragraphs</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-8.html"><i class='bx bx-images'></i>HTML Images</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-9.html"><i class='bx bx-list-ul'></i>HTML Lists</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-10.html"><i class='bx bx-grid'></i>HTML Tables</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-11.html"> <i class='bx bx-link-alt'></i>HTML Links</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Forms</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-12.html"><i class='bx bx-detail'></i>Form Attributes</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-13.html"><i class='bx bx-news'></i>Form Elements</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-14.html"><i class='bx bx-id-card'></i>Input types</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-15.html"><i class='bx bx-book-open'></i>Input
+                        Attributes</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section class="body-content">
+        <header>
+            <div class="search-bar">
+                <i class='bx bx-sm bx-search-alt'></i>
+                <input type="text" name="search" id="" placeholder="Search tutorials and examples">
+            </div>
+            <div class="theme-switch">
+                <i class='bx bx-sm bx-moon' id="switch-theme"></i>
+            </div>
+        </header>
+        <p class="content-heading">HTML Block & Inline Elements</p>
+        <p class="content-detail">Every HTML element has a default display value, depending on what type of element it is.</p>
+        <p class="content-detail">There are two display values: block and inline.</p>
+        <hr class="hr-line">
+        <p class="content-sub-heading">Block-level Elements</p>
+        <p class="content-detail">A block-level element always starts on a new line, and the browsers automatically add some space (a margin) before and after the element. </p>
+            <p class="content-detail"> A block-level element always takes up the full width available (stretches out to the left and right as far as it can).</p>
+        <p class="content-detail">    Two commonly used block elements are: <span class="highlighted-text"> &lt;p&gt; </span> and <span class="highlighted-text"> &lt;div&gt;. </span> </p>
+        <img src="../images/block-lev-tags.svg" alt="" class="content-tutorial-img">
+        <p class="content-detail" style="border: 1px solid #3d5cff;">   The <span class="highlighted-text"> &lt;p&gt; </span> element defines a paragraph in an HTML document. </p>
+        <p class="content-detail" style="border: 1px solid #3d5cff;">    The <span class="highlighted-text"> &lt;div&gt; </span> element defines a division or a section in an HTML document. 
+        </p>
+        <p class="content-sub-heading-2">Some of the block level elements are : </p>
+   <p class="content-detail">&lt;div&gt; , &lt;dl&gt; , &lt;dt&gt; , &lt;footer&gt; , &lt;form&gt; , &lt;h1&gt; - &lt;h6&gt; , &lt;header&gt; , &lt;hr&gt; , &lt;li&gt; , &lt;nav&gt; , &lt;ol&gt; , &lt;p&gt; , &lt;pre&gt; , &lt;section&gt; , &lt;table&gt;
+   </p>
+   <hr class="hr-line">
+
+   <p class="content-sub-heading"> Inline Elements</p>
+  <p class="content-detail">  An <span class="highlighted-text"> inline  </span>element does not start on a new line. </p>
+   
+  <p class="content-detail"> An <span class="highlighted-text"> inline </span> element only takes up as much width as necessary. </p>
+   <img src="../images/inline-tag.svg" alt="" class="content-tutorial-img">
+  <p class="content-detail"> This is a <span class="highlighted-text" style="border: 1px solid #3d5cff;"> &lt; span &gt;  </span> element inside a  paragraph having border. </p>
+  <p class="content-sub-heading-2">Some of the inline  elements are : </p>
+  <p class="content-detail">&lt;a&gt; , &lt;br&gt; , &lt;button&gt; , &lt;img&gt; , &lt;input&gt; , &lt;small&gt; , &lt;mark&gt; </p>
+            <hr class="hr-line">
+        <div class="page-navigate-area">
+            <a class="page-back" href="html-tut-4.html">
+                <p class="text">
+                    <p class="heading">Previous tutorial</p>
+                   HTML Formatting</p>
+            </a>
+            <a href="html-tut-6.html" class="page-next">
+                <div class="text">
+                <p class="heading">Next tutorial : </p>
+               HTML Headings</div>
+               <i class='bx bx-sm bx-arrow-back bx-flip-horizontal' ></i>
+            </a>
+        </div>
+        <hr class="hr-line">
+        <footer>
+            <p class="left-text">Follow us on<a href="https://github.com/riyachhetri"> <i class='bx bx-sm bxl-github'></i> </a></p>
+            <p class="copyright-text">&#169; WebItAll 2022 All rights reserved.</p>
+            <p class="right-text">
+                <a href="../about-us.html" class="bottom-links">About us</a>
+            </p>
+        </footer>
+        <hr class="hr-line">
+        <p class="heart-thought">Made with &#10084;&#65039; from India</p>
+    </section>
+</body>
+<script src="../script.js"></script>
+
+</html>

@@ -1,0 +1,40 @@
+<html>
+<style>
+span {
+    color: rgb(240, 215, 75);
+}
+img {
+    width: 20px;
+    padding: 1px;
+}
+.open{
+    color: white;
+    font-size: 19px;
+}
+</style>
+<body style="margin:0px;color: white;">
+
+<div style="background-color:black;padding:20px 0px;display: inline-block;position: relative;width: 100%;">
+<center><h2 style="margin: 0px;padding-bottom: 20px;">&#9642; Contact Us &#9642;</h2></center>
+<div style="padding: 20px;">
+<div style="display: inline;float: left;width: 50%;">
+    <span>First Name:</span><br><input type="text"><br>
+    <span>Last Name:</span><br><input type="text"><br>
+    <span>Email:</span><br><input type="text"><br>
+    <span>Feedback:</span><br><textarea cols="20" rows="8"></textarea>
+</div><div style="display:inline;float: left;width: 40%;margin-left: 20px;">
+    <span class="open">WE'RE OPEN</span><br>
+    <span>All days: 8 am-9 pm</span><br><br>
+    <span class="open">LOCATIONS</span><br>
+    <span>Bengaluru | Delhi NCR | Hyderabad</span><br><br>
+    Help: help@hotandcrispysamosa.co.in<br><br>
+    Contact: +91 8888888888<br><br>
+    <span class="open">Follow US</span><br><div>
+    <br>
+    <a href="#"><img src="../images/facebo.png"></a>
+    <a href="#"><img src="../images/ins.png"></a>
+    <a href="#"><img src="../images/twitte.png"></a></div>
+</div></div></div>
+
+</body>
+</html>

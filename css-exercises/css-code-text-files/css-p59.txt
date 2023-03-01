@@ -1,0 +1,13 @@
+<html>
+<style>
+div {
+    height: 350px;
+    background: linear-gradient(red, yellow);
+}
+</style>
+<body>
+
+<div></div>
+
+</body>
+</html>

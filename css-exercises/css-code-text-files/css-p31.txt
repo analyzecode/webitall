@@ -1,0 +1,29 @@
+<html>
+<style>
+body{
+    margin-top: 50px;
+}
+div {
+    color: gold;
+    font-size: 25px;
+    -webkit-text-stroke: 1px black;
+}
+span{
+    font-family: sans-serif;
+}
+img{
+    width: 100px;
+    border-radius: 50%;
+}
+</style>
+<body>
+
+<center><img src="../images/frrre.jpg">
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium dicta perspiciatis in! Nihil iste labore commodi?</p>
+<p>Lorem ipsum dolor sit amet consectetur, adipidicing elit.</p>
+<span>Amanda Sharma</span><br><br>
+<span>Vice President of Sloopy</span><br><br>
+<div>&#9733; &#9733; &#9733; &#9733; &#9733;</div></center>
+
+</body>
+</html>

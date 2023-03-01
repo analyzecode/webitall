@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>3rd program of css</title>
+    </head>
+
+    <body>
+        <div style="background-color:red; height:155px; width:155px; margin:0px 0px 0px 0px;" ></div>
+        <div style="background-color:purple; height:155px; width:155px; margin:0% 0% 0% 17%; margin-left: 165px;"></div>
+        <div style="background-color:pink; height:155px; width:155px; margin:0% 0% 0% 34%; margin-left: 330px;"></div>
+    </body>
+</html>

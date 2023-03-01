@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WebItAll</title>
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav class="sidebar">
+        <a class="logo">
+            <img src="../images/logo.svg" alt="">
+            <span class="logo-txt">WebItAll</span>
+        </a>
+        <section class="main-sidebar">
+            <a href="../index.html" class="home"><i class='bx bx-home'></i> <span> Home </span></a>
+            <a href="#" class="home active"><i class='bx bxl-html5'></i><span> Html Tutorial </span></a>
+            <a href="../css-exercises/css-exercise-list.html" class="home"><i class='bx bxl-css3'></i><span> CSS Exercises</span></a>
+            <a href="../javascript/javascript-exercise-list.html" class="home"><i class='bx bxl-javascript'></i><span> JS Exercises</span></a>
+        </section>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Introduction</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-1.html"><i class='bx bx-dock-top'></i>Getting
+                        Started</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-2.html"><i class='bx bx-code'></i>HTML Tags</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-3.html"><i class='bx bx-book-open'></i>HTML
+                        Attributes</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-4.html"><i class='bx bx-edit'></i>HTML Formating</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-5.html"><i class='bx bx-box'></i>Block & Inline</a></li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">Tags Reference</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-6.html"><i class='bx bx-heading'></i>HTML Headings</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-7.html"><i class='bx bx-book-content'></i>HTML
+                        Paragraphs</a></li>
+                <li class="tut-sidebar-items active"><a href="html-tut-8.html" class="active"><i class='bx bx-images'></i>HTML Images</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-9.html"><i class='bx bx-list-ul'></i>HTML Lists</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-10.html"><i class='bx bx-grid'></i>HTML Tables</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-11.html"> <i class='bx bx-link-alt'></i>HTML Links</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Forms</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-12.html"><i class='bx bx-detail'></i>Form Attributes</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-13.html"><i class='bx bx-news'></i>Form Elements</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-14.html"><i class='bx bx-id-card'></i>Input types</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-15.html"><i class='bx bx-book-open'></i>Input
+                        Attributes</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section class="body-content">
+        <header>
+            <div class="search-bar">
+                <i class='bx bx-sm bx-search-alt'></i>
+                <input type="text" name="search" id="" placeholder="Search tutorials and examples">
+            </div>
+            <div class="theme-switch">
+                <i class='bx bx-sm bx-moon' id="switch-theme"></i>
+            </div>
+        </header>
+        <p class="content-heading">HTML Images</p>
+        <p class="content-detail">The HTML <span class="highlighted-text">&lt;img&gt;</span> tag is used to embed an image in a web page.</p>
+        <p class="content-detail">Images are not technically inserted into a web page; images are linked to web pages.</p>
+        <p class="content-detail"> The <span class="highlighted-text">&lt;img&gt;</span> tag creates a holding space for the referenced image.</p>
+        <p class="content-detail">The <span class="highlighted-text">&lt;img&gt;</span> tag is empty, it contains attributes only, and does not have a closing tag.</p>
+        <p class="content-detail">The <span class="highlighted-text">&lt;img&gt;</span> tag has two required attributes:</p>
+        <ul class="content-list">
+            <li class="content-list-item"><span class="highlighted-text"> src</span> - Specifies the path to the image</li>
+            <li class="content-list-item"><span class="highlighted-text"> alt</span> - Specifies an alternate text for the image</li>
+        </ul>
+        <p class="content-detail">We can use the HTML width and height attributes or the CSS width and height properties to define the size of the image.</p>
+        <img src="../images/img-tag-code.svg" alt="" class="content-tutorial-img">
+        <p class="content-sub-heading-2">Output : </p>
+        <img src="../images/img-tag-output.svg" alt="" class="content-tutorial-img">
+
+        <p class="content-heading">Image Map</p>
+        <p class="content-detail">The HTML &lt;map&gt; tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more &lt;area&gt; tags.</p>
+        <p class="content-sub-heading-2">For example : </p>
+        <img src="../images/image-map-code.svg" alt="" class="content-tutorial-img">
+        <p class="content-detail">Try to click on the computer, phone, or the cup of coffee in the image below :</p>
+        <img src="../images/img-map.jpg" alt="" class="content-tutorial-img" usemap="#workmap">
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="../images/computer.jpg" target="_blank">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="../images/phone.jpg" target="_blank">
+            <area shape="circle" coords="337,300,44" alt="Coffee" href="../images/coffee.jpg" target="_blank">
+          </map>
+            <hr class="hr-line">
+        <div class="page-navigate-area">
+            <a class="page-back" href="html-tut-7.html">
+                <p class="text">
+                    <p class="heading">Previous tutorial</p>
+                   HTML Paragraphs</p>
+            </a>
+            <a href="html-tut-9.html" class="page-next">
+                <div class="text">
+                <p class="heading">Next tutorial : </p>
+               HTML Lists</div>
+               <i class='bx bx-sm bx-arrow-back bx-flip-horizontal' ></i>
+            </a>
+        </div>
+        <hr class="hr-line">
+        <footer>
+            <p class="left-text">Follow us on<a href="https://github.com/riyachhetri"> <i class='bx bx-sm bxl-github'></i> </a></p>
+            <p class="copyright-text">&#169; WebItAll 2022 All rights reserved.</p>
+            <p class="right-text">
+                <a href="../about-us.html" class="bottom-links">About us</a>
+            </p>
+        </footer>
+        <hr class="hr-line">
+        <p class="heart-thought">Made with &#10084;&#65039; from India</p>
+    </section>
+</body>
+<script src="../script.js"></script>
+
+</html>

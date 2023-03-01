@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WebItAll</title>
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav class="sidebar">
+        <a class="logo">
+            <img src="../images/logo.svg" alt="">
+            <span class="logo-txt">WebItAll</span>
+        </a>
+        <section class="main-sidebar">
+            <a href="../index.html" class="home"><i class='bx bx-home'></i> <span> Home </span></a>
+            <a href="#" class="home active"><i class='bx bxl-html5'></i><span> Html Tutorial </span></a>
+            <a href="../css-exercises/css-exercise-list.html" class="home"><i class='bx bxl-css3'></i><span> CSS Exercises</span></a>
+            <a href="../javascript/javascript-exercise-list.html" class="home"><i class='bx bxl-javascript'></i><span> JS Exercises</span></a>
+        </section>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Introduction</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-1.html"><i class='bx bx-dock-top'></i>Getting
+                        Started</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-2.html"><i class='bx bx-code'></i>HTML Tags</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-3.html"><i class='bx bx-book-open'></i>HTML
+                        Attributes</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-4.html"><i class='bx bx-edit'></i>HTML Formating</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-5.html"><i class='bx bx-box'></i>Block & Inline</a></li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">Tags Reference</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-6.html"><i class='bx bx-heading'></i>HTML Headings</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-7.html"><i class='bx bx-book-content'></i>HTML
+                        Paragraphs</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-8.html"><i class='bx bx-images'></i>HTML Images</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-9.html"><i class='bx bx-list-ul'></i>HTML Lists</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-10.html"><i class='bx bx-grid'></i>HTML Tables</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-11.html"> <i class='bx bx-link-alt'></i>HTML Links</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Forms</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-12.html"><i class='bx bx-detail'></i>Form Attributes</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-13.html"><i class='bx bx-news'></i>Form Elements</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-14.html"><i class='bx bx-id-card'></i>Input types</a>
+                </li>
+                <li class="tut-sidebar-items active"><a href="html-tut-15.html" class="active"><i class='bx bx-book-open'></i>Input
+                        Attributes</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section class="body-content">
+        <header>
+            <div class="search-bar">
+                <i class='bx bx-sm bx-search-alt'></i>
+                <input type="text" name="search" id="" placeholder="Search tutorials and examples">
+            </div>
+            <div class="theme-switch">
+                <i class='bx bx-sm bx-moon' id="switch-theme"></i>
+            </div>
+        </header>
+        <p class="content-heading">Input Attributes</p>
+        <p class="content-detail">The different attributes for the HTML <span class="highlighted-text">input</span> element.</p>
+        <p class="content-sub-heading">The value attribute</p>
+        <p class="content-detail">The input value attribute specifies an initial value for an input field :</p>
+        <img src="../images/input-attrib-2.svg" alt="" class="content-tutorial-img">
+
+        <p class="content-sub-heading">The readonly attribute</p>
+        <p class="content-detail">The input readonly attribute specifies that an input field is read-only.</p>
+        <p class="content-detail">A <span class="highlighted-text">read-only</span> input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it).</p>
+        <p class="content-detail">The value of a read-only input field will be sent when submitting the form !</p>
+        <img src="../images/readonly-input-attrib.svg" alt="" class="content-tutorial-img">
+        <p class="content-sub-heading-2">Output : </p>
+        <p class="content-detail">
+            <label for = " fname "> First name :   </label> 
+            <input type = " text " id = " fname " name = " fname " value = " John "" readonly> </p>
+
+            <p class="content-sub-heading">The disabled attribute</p>
+            <p class="content-detail">A <span class="highlighted-text">disabled</span> attribute specifies that an input field should be disabled.</p>
+            <p class="content-detail">A disabled input field is unusable and un-clickable.</p>
+            <p class="content-detail">The value of a disabled input field will not be sent when submitting the form !</p>
+            <img src="../images/disabled-attrib-input.svg" alt="" class="content-tutorial-img">
+            <p class="content-sub-heading-2">Output : </p>
+            <p class="content-detail">
+                <label for = " fname "> First name :   </label> 
+                <input type = " text " id = " fname " name = " fname " value = " John "" disabled> </p>
+            
+                <p class="content-sub-heading">The size attribute</p>
+                <p class="content-detail">A <span class="highlighted-text">size</span> attribute specifies the visible width, in characters, of an input field.</p>
+                <p class="content-detail">The default value for size is 20.</p>
+                <p class="content-detail">The size attribute works with the following input types: text, search, tel, url, email, and password.</p>
+                <img src="../images/input-size-attrib.svg" alt="" class="content-tutorial-img">
+                <p class="content-sub-heading-2">Output : </p>
+                <p class="content-detail">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" size="50"></p>
+
+                    <p class="content-sub-heading">The placeholder attribute</p>
+                    <p class="content-detail">A <span class="highlighted-text">placeholder</span> attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format).</p>
+                    <p class="content-detail">The short hint is displayed in the input field before the user enters a value.</p>
+                    <img src="../images/input-attrib-11.svg" alt="" class="content-tutorial-img">
+                    <p class="content-sub-heading-2">Output : </p>
+                    <p class="content-detail">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname" value="John"> &nbsp; &nbsp;
+                        <input type="submit" value="Submit"></p>
+       
+        <hr class="hr-line">
+        <div class="page-navigate-area">
+            <a class="page-back" href="html-tut-14.html">
+                <p class="text">
+                    <p class="heading">Previous tutorial</p>
+                  Input types</p>
+            </a>
+            <a href="html-tut-14.html" class="page-next" style="visibility: hidden;">
+                <div class="text" >
+                <p class="heading">Next tutorial : </p>
+               Input Attributes</div>
+               <i class='bx bx-sm bx-arrow-back bx-flip-horizontal' ></i>
+            </a>
+        </div>
+        <hr class="hr-line">
+        <footer>
+            <p class="left-text">Follow us on<a href="https://github.com/riyachhetri"> <i class='bx bx-sm bxl-github'></i> </a></p>
+            <p class="copyright-text">&#169; WebItAll 2022 All rights reserved.</p>
+            <p class="right-text">
+                <a href="../about-us.html" class="bottom-links">About us</a>
+            </p>
+        </footer>
+        <hr class="hr-line">
+        <p class="heart-thought">Made with &#10084;&#65039; from India</p>
+    </section>
+</body>
+<script src="../script.js"></script>
+
+</html>

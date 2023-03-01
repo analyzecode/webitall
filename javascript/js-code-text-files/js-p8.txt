@@ -1,0 +1,11 @@
+<html>
+<body>
+</body>
+<script>
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"];
+    const monthdays = [31,28,31,30,31,30,31,31,30,31,30,31]
+    var a = prompt("Enter month number (1-12)");
+    document.write("The " + a + " month is " + monthNames[a - 1] + " and has "+monthdays[a-1]+" days.");
+</script>
+</html>

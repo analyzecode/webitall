@@ -1,0 +1,31 @@
+<html>
+<style>
+body {
+    background-image: url("../images/tree.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+</style>
+<body>
+
+<h1>The background image is fixed.</h1>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+<p>The background image is fixed.</p><br><br>
+</body>
+</html>

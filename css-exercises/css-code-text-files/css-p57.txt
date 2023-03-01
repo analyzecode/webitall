@@ -1,0 +1,50 @@
+<html>
+<style>
+body {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 16px;
+}
+.navb{
+    background-color: rgb(53, 53, 53);
+    padding: 8px 3px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    padding-left: 4px;
+    font-size: 17px;
+}    
+</style>
+<body>
+
+<div style="padding-bottom: 10px;">
+    <center><h1>Header</h1>
+    Resize the browser window to see the responsive effect.</center>
+    <br>
+</div><div class="navb">
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+</div><div style="display: flex;">
+    <div style="width: 25%;margin: 5px;">
+    <h2>Side</h2>
+    The pain itself is love, the main customer..
+</div><div style="width:50%;margin: 5px;">
+    <h2>Main Content</h2>
+<p>The pain itself is love, the main storage system. Maecenas sit amet pretium urna. Live venenatis wants
+    neither nor compensation, the chemical element of the great sadness. Each of the vehicles, the laughter
+    needs some real estate, the pure lion to stop the eros, the mourning needs of the orcs. It's a torturer,
+    but a layer of valleys.</p>
+<p>The pain itself is love, the main storage system. Maecenas sit amet pretium urna. Live venenatis wants
+    neither nor compensation, the chemical element of the great sadness. Each of the vehicles, the laughter
+    needs some real estate, the pure lion to stop the eros, the mourning needs of the orcs. It's a torturer,
+    but a layer of valleys.</p>
+</div><div style="width: 25%;margin: 5px;">
+    <h2>Side</h2>
+    The pain itself is love, the main customer..
+</div></div>
+
+</body>
+</html>

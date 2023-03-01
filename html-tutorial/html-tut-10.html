@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WebItAll</title>
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <nav class="sidebar">
+        <a class="logo">
+            <img src="../images/logo.svg" alt="">
+            <span class="logo-txt">WebItAll</span>
+        </a>
+        <section class="main-sidebar">
+            <a href="../index.html" class="home"><i class='bx bx-home'></i> <span> Home </span></a>
+            <a href="#" class="home active"><i class='bx bxl-html5'></i><span> Html Tutorial </span></a>
+            <a href="../css-exercises/css-exercise-list.html" class="home"><i class='bx bxl-css3'></i><span> CSS Exercises</span></a>
+            <a href="../javascript/javascript-exercise-list.html" class="home"><i class='bx bxl-javascript'></i><span> JS Exercises</span></a>
+        </section>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Introduction</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-1.html"><i class='bx bx-dock-top'></i>Getting
+                        Started</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-2.html"><i class='bx bx-code'></i>HTML Tags</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-3.html"><i class='bx bx-book-open'></i>HTML
+                        Attributes</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-4.html"><i class='bx bx-edit'></i>HTML Formating</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-5.html"><i class='bx bx-box'></i>Block & Inline</a></li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">Tags Reference</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-6.html"><i class='bx bx-heading'></i>HTML Headings</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-7.html"><i class='bx bx-book-content'></i>HTML
+                        Paragraphs</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-8.html"><i class='bx bx-images'></i>HTML Images</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-9.html"><i class='bx bx-list-ul'></i>HTML Lists</a></li>
+                <li class="tut-sidebar-items active"><a href="html-tut-10.html" class="active"><i class='bx bx-grid'></i>HTML Tables</a></li>
+                <li class="tut-sidebar-items"><a href="html-tut-11.html"> <i class='bx bx-link-alt'></i>HTML Links</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tutorial-side-lists">
+            <p class="heading">HTML Forms</p>
+            <ul>
+                <li class="tut-sidebar-items"><a href="html-tut-12.html"><i class='bx bx-detail'></i>Form Attributes</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-13.html"><i class='bx bx-news'></i>Form Elements</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-14.html"><i class='bx bx-id-card'></i>Input types</a>
+                </li>
+                <li class="tut-sidebar-items"><a href="html-tut-15.html"><i class='bx bx-book-open'></i>Input
+                        Attributes</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section class="body-content">
+        <header>
+            <div class="search-bar">
+                <i class='bx bx-sm bx-search-alt'></i>
+                <input type="text" name="search" id="" placeholder="Search tutorials and examples">
+            </div>
+            <div class="theme-switch">
+                <i class='bx bx-sm bx-moon' id="switch-theme"></i>
+            </div>
+        </header>
+        <p class="content-heading">HTML Tables</p>
+        <p class="content-detail">A table in HTML consists of table cells inside rows and columns.</p>
+        <p class="content-detail">HTML tables allow web developers to arrange data into rows and columns.</p>
+
+        <p class="content-sub-heading">Attributes of table tag : </p>
+        <ul class="content-list">
+            <li class="content-list-item"><span class="highlighted-text">Border - </span>Specifies the border of the table</li>
+            <li class="content-list-item"><span class="highlighted-text">Width - </span>Specifies width of the table</li>
+            <li class="content-list-item"><span class="highlighted-text">Height - </span>Specifies height of the table</li>
+            <li class="content-list-item"><span class="highlighted-text">bgcolor - </span>Specifies the background color of the table</li>
+            <li class="content-list-item"><span class="highlighted-text">background - </span>Specifies the background image of the table</li>
+            <li class="content-list-item"><span class="highlighted-text">Cellpadding - </span>Specifies the space between the border of a table cell and its contents (i.e) it defines the whitespace between the cell edge and the content of the cell.</li>
+            <li class="content-list-item"><span class="highlighted-text">Cellspacing - </span>Specifies the space between cells (i.e) it defines the whitespace between the edges of the adjacent cells.</li>
+            <li class="content-list-item"><span class="highlighted-text">Caption - </span>Defines the table caption</li>
+        </ul>
+
+        <p class="content-sub-heading-2">Table cells</p>
+        <p class="content-detail">Each table cell is defined by a <span class="highlighted-text"> &lt;td&gt;</span> and a <span class="highlighted-text"> &lt;/td&gt;</span> tag.
+           <br> td stands for table data.
+          <br>  Everything between <span class="highlighted-text"> &lt;td&gt;</span> and <span class="highlighted-text"> &lt;/td&gt;</span> are the content of the table cell</p>
+        <p class="content-sub-heading-2">Table rows</p>
+        <p class="content-detail">Each table row starts with a &lt;tr&gt; and end with a &lt;/tr&gt; tag , 
+            tr stands for table row</p>
+        <p class="content-sub-heading-2">Table headers</p>
+        <p class="content-detail">Sometimes you want your cells to be headers, in those cases use the &lt;th&gt; tag instead of the <th> tag
+            th stands for table heading</p>
+        <p class="content-sub-heading-2">Colspan</p>
+        <p class="content-detail">To make a cell span over multiple columns, use the colspan attribute.</p>
+        <p class="content-sub-heading-2">Rowspan</p>
+        <p class="content-detail">To make a cell span over multiple rows, use the rowspan attribute.</p>
+        <p class="content-sub-heading-2">For example : </p>
+        <img src="../images/table-example.svg" alt="" class="content-tutorial-img">
+        <p class="content-sub-heading">Output</p>
+        <img src="../images/table-example-output.svg" alt="" class="content-tutorial-img">
+
+        <hr class="hr-line">
+        <div class="page-navigate-area">
+            <a class="page-back" href="html-tut-19.html">
+                <p class="text">
+                    <p class="heading">Previous tutorial</p>
+                   HTML Lists</p>
+            </a>
+            <a href="html-tut-11.html" class="page-next">
+                <div class="text">
+                <p class="heading">Next tutorial : </p>
+               HTML Links</div>
+               <i class='bx bx-sm bx-arrow-back bx-flip-horizontal' ></i>
+            </a>
+        </div>
+        <hr class="hr-line">
+        <footer>
+            <p class="left-text">Follow us on<a href="https://github.com/riyachhetri"> <i class='bx bx-sm bxl-github'></i> </a></p>
+            <p class="copyright-text">&#169; WebItAll 2022 All rights reserved.</p>
+            <p class="right-text">
+                <a href="../about-us.html" class="bottom-links">About us</a>
+            </p>
+        </footer>
+        <hr class="hr-line">
+        <p class="heart-thought">Made with &#10084;&#65039; from India</p>
+    </section>
+</body>
+<script src="../script.js"></script>
+
+</html>

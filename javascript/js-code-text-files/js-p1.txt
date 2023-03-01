@@ -1,0 +1,9 @@
+<html>
+    <body>
+    </body>
+<script>
+    var celcius = 100;
+    var farenheit = (celcius * 9 / 5) + 32;
+    document.write("Temperature in celcius : " + celcius + "<br>" + "Temperature in farenheit : " + farenheit);
+</script>
+</html>

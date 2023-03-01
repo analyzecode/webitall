@@ -1,0 +1,22 @@
+<html>
+<style>
+input{
+    font-size: 25px;
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    background: linear-gradient(to right, rgb(108, 0, 197), rgb(255, 44, 227));
+    border-radius: 50px;
+}
+input:hover{
+    font-size: 35px;
+    padding: 12px 45px;
+}
+</style>
+<body>
+
+<div style="display:flex ;float:left;"><input type="button" value="Play-Store"></div>
+<div style="display:flex ;float:right;"><input type="button" value="Apple-Store"></div>
+
+</body>
+</html>

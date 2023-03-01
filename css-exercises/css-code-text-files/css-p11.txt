@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>11th program of css</title>
+    <style>
+        div{
+            margin:2% 0% 0% 0%;
+        }
+.line-1{
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.line-2{
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(152, 158, 165);   
+    margin-top:-25px;
+}
+.line-2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btton{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size:15px;
+    width: 110px;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <p class="line-1">HTML CSS Course</p>
+        <p class="line-2">Beginner to Pro</p>
+        <p class="line-3">In this course, we'll learn the skills <br> you need to become a developer.</p>
+        <input type="button" value="Get Started" class="btton">
+    </div>
+</body>
+</html>
